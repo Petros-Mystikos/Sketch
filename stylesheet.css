@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #CDF5FD;
+}
+
+
+
 body,
 .main-body,
 .options{
@@ -16,19 +22,24 @@ body,
 
 h1{
     font-size: 70px;
+    color: #00A9FF;
+    cursor: default;
 }
 
 form{
     display:flex ;
     gap: 10px;
     font-size:30px ;
+    color: #00A9FF;
 }
 
 select,
 input{
+    border:1px solid  #89CFF3;
     border-radius: 10%;
     padding: 5px;
     font-size: 20px;
+    background-color: #89CFF3;
 }
 
 .colors{
@@ -40,8 +51,10 @@ input{
 
 p{
     padding: 15px;
-    border: 1px solid black;
+    border: 1px solid #89CFF3;
     border-radius: 50%;
+    background-color: #89CFF3;
+    cursor: pointer;
 }
 
 .container{
@@ -50,11 +63,12 @@ p{
     margin: 10px;
     height: 502px;
     width: 502px;
-    border: 1px solid black;
+    border: 1px solid grey;
+    background-color: whitesmoke    ;
 }
 
 .block{
-    border: 1px solid black;
+    border: 1px solid grey;
 }
 
 .block:hover{
